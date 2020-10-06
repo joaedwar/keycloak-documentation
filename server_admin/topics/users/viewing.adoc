@@ -1,7 +1,7 @@
 [searching-users]
 = Searching for users
 
-You can search for a user in the database, by using the full name, last name, or email address of the user.
+You can search for a user in the database by using the full name, last name, or email address of the user.
 
 .Prerequisites
 * You are logged in to the correct realm and are not in the master realm.
@@ -20,5 +20,5 @@ NOTE: This will only search the local {project_name} database and not the federa
 ... To apply changes to all users in the database, click *Sync all users* on the page with your federation provider.
 
 .Additional resources
-* For more information on viewing users, see <<_user-storage-federation,User Federation>>.
+* For more information on user federation, see <<_user-storage-federation,User Federation>>.
 
