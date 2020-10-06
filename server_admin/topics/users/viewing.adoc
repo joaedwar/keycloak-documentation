@@ -1,19 +1,24 @@
+[searching-users]
+= Searching for users
 
-=== Searching For Users
+You can search for a user in the database, by using the full name, last name, or email address of the user.
 
-If you need to manage a specific user, click on `Users` in the left menu bar.
+.Prerequisites
+* You are logged in to the correct realm and are not in the master realm.
 
-.Users
-image:{project_images}/users.png[]
+.Procedure
+. Click on *Users* in the left menu bar. This will direct you to the user list page.  
+. In the search box, type the full name, last name, or email address of the user you want to search for in the user database. The query will bring up all users that match your criteria.  
+. Alternatively, you can click *View all users* to list every user in the system.  
++
+NOTE: This will only search the local {project_name} database and not the federated database, such as LDAP. The backends for federated databases, such as LDAP, do not have a pagination mechanism that allow for the scanning of users. 
++
+.. To search users from a federated backend, the user list must be synced into {project_name} database. Adjust the search criteria to sync the backend users into {project_name} database.
++
+.. Alternatively, navigate to the *User Federation* tab.
+... To apply changes to a selected user, click *Sync changed users* on the page with your federation provider.
+... To apply changes to all users in the database, click *Sync all users* on the page with your federation provider.
 
-This menu option brings you to the user list page.  In the search box you can type in a full name, last name, or email address
-you want to search for in the user database.  The query will bring up all users that match your criteria.  The `View all users` button
-will list every user in the system.  This will search just local {project_name} database and not the federated database (ie. LDAP)
-because some backends like LDAP don't have a way to page through users. So if you want the users from federated backend to be synced into {project_name}
-database you need to either:
-
-* Adjust search criteria. That will sync just the backend users matching the criteria into {project_name} database.
-* Go to `User Federation` tab and click `Sync all users` or `Sync changed users` in the page with your federation provider.
-
-See <<_user-storage-federation,User Federation>> for more details.
+.Additional resources
+* For more information on viewing users, see <<_user-storage-federation,User Federation>>.
 

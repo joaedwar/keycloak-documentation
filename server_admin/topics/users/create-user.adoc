@@ -1,19 +1,17 @@
-[[_create-new-user]]
+[creat-new-users]
+= Creating new users
 
-=== Creating New Users
+You can use the menu options to create new users and update the user list page. 
 
-To create a user click on `Users` in the left menu bar.
-
-.Users
-image:{project_images}/users.png[]
-
-This menu option brings you to the user list page.  On the right side of the empty user list, you should see an `Add User`
-button.  Click that to start creating your new user.
-
-.Add User
-image:{project_images}/add-user.png[]
-
-The only required field is `Username`.  Click save.  This will bring you to the management page for your new user.
+.Prerequisite
+* You are logged in to the correct realm.
+ 
+.Procedure
+. To create a user, click on *Users* in the left menu bar.
+. Click *Add User*, located on the right side of the empty user list.
+. Enter the details for the new user. _Username_ is the only required field.   
+. Click *Save*.
+. After saving the details, you will be directed to the management page for the new user.
 
 
 

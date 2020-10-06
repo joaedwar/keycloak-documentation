@@ -1,11 +1,18 @@
+[configuring-user-attributes]
+= Configuring user attributes
 
-=== User Attributes
+In addition to adding basic user metadata, such as names and email, you can also store arbitrary user attributes.  
 
-Beyond basic user metadata like name and email, you can store arbitrary user attributes.  Choose a user to manage
-then click on the `Attributes` tab.
+.Prerequisite
+* You are logged into the correct realm.
 
-.Users
-image:{project_images}/user-attributes.png[]
+.Procedure
+. Choose a user to manage.
+. Click on the *Attributes* tab.
+. Enter the attribute name and value in the empty fields.
+. Click *Add* to create a new field.
+. Click *Save*.
 
-Enter in the attribute name and value in the empty fields and click the `Add` button next to it to add a new field.
-Note that any edits you make on this page will not be stored until you hit the `Save` button.
+NOTE: Edits to the page will not be stored until you click *Save*.
+
+
