@@ -1,11 +1,7 @@
 [id="proc-searching-users_{context}"]
 = Searching for users
 
-<<<<<<< HEAD
 Search for users to view their detailed information and to understand their role and responsibilities in the console. You can search for a user in the database using the full name, last name, first name, or email address of the user.
-=======
-You can search for a user in the database by using the full name, last name, or email address of the user.
->>>>>>> b43ec434b979049313a8082374cd4f61a3c82e40
 
 .Prerequisites
 * You are logged in to the correct realm and are not in the master realm.
