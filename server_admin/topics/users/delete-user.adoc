@@ -1,10 +1,8 @@
 [id="proc-deleting-users_{context}"]
 = Deleting users
 
-A deleted user does not have access to the console and the user data is removed.
+// A deleted user does not have access to the console and the user data is removed.
 
-.Prerequisites
-* You are logged in to the correct realm.
 
 .Procedure
 . Click on *Users* in the left menu bar. This opens the user list page.  
@@ -12,6 +10,5 @@ A deleted user does not have access to the console and the user data is removed.
 +
 NOTE: Alternatively, you can use the search bar to find users.
 +
-. Click *Delete* next to the user you want to remove. 
-. Click *Delete* to confirm deletion.
+. Click *Delete* next to the user you want to remove and confirm deletion.
 

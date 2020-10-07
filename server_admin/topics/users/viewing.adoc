@@ -3,8 +3,6 @@
 
 Search for users to view their detailed information and to understand their role and responsibilities in the console. You can search for a user in the database using the full name, last name, first name, or email address of the user.
 
-.Prerequisites
-* You are logged in to the correct realm and are not in the master realm.
 
 .Procedure
 . Click *Users* in the left menu bar. This opens the user list page.  

@@ -3,9 +3,6 @@
 
 // A new user has access to ...
 
-.Prerequisite
-* You are logged in to the correct realm.
- 
 .Procedure
 . Click *Users* in the left menu bar.
 . Click *Add User*, located on the right side of the empty user list.

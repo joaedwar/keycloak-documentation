@@ -3,10 +3,6 @@
 
 User attributes provide a customized experience for each user. Using user attributes, you can can create a personalized identity for each user in the console.
 
-.Prerequisites
-* You are logged into the correct realm.
-* You have added a user to the console.
-
 .Procedure
 . Click *Users* in the left menu bar. 
 . Select a user to manage.
