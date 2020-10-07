@@ -1,13 +1,13 @@
-[creat-new-users]
+[id="proc-creating-new-users_{context}"]
 = Creating new users
 
-You can use the menu options to create new users and update the user list page. 
+// A new user has access to ...
 
 .Prerequisite
 * You are logged in to the correct realm.
  
 .Procedure
-. To create a user, click on *Users* in the left menu bar.
+. Click *Users* in the left menu bar.
 . Click *Add User*, located on the right side of the empty user list.
 . Enter the details for the new user. _Username_ is the only required field.   
 . Click *Save*.

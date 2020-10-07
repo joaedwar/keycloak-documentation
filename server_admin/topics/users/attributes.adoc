@@ -1,18 +1,20 @@
-[configuring-user-attributes]
+[id="proc-configuring-user-attributes_{context}"]
 = Configuring user attributes
 
-In addition to adding basic user metadata, such as names and email, you can also store arbitrary user attributes.  
+User attributes provide a customized experience for each user. Using user attributes, you can can create a personalized identity for each user in the console.
 
-.Prerequisite
+.Prerequisites
 * You are logged into the correct realm.
+* You have added a user to the console.
 
 .Procedure
-. Choose a user to manage.
-. Click on the *Attributes* tab.
-. Enter the attribute name and value in the empty fields.
-. Click *Add* to create a new field.
+. Click *Users* in the left menu bar. 
+. Select a user to manage.
+. Click the *Attributes* tab.
+. Enter the attribute name in the _Key_ field.
+. Enter the attribute value in the _Value_ field.
+. Click *Add* .
 . Click *Save*.
 
-NOTE: Edits to the page will not be stored until you click *Save*.
 
 
