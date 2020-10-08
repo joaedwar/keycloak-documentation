@@ -1,0 +1,11 @@
+[id="proc_creating-otp_{context}"]
+= Creating an OTP
+
+If OTP is conditional in your realm, the user will have to go to the User Account Management service to re-configure a new
+OTP generator. If OTP is required, then the user will be asked
+to re-configure a new OTP generator when they log in.
+
+Like passwords, you can alternatively send an email to the user that will ask them to reset their OTP generator.  Choose
+`Configure OTP` in the `Reset Actions` list box and click the `Send Email` button.  The sent email
+contains a link that will bring the user to the OTP setup screen. You can use this method even if the user already has an OTP credential,
+and would like to set up some more.
