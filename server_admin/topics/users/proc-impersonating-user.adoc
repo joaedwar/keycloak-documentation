@@ -1,0 +1,10 @@
+[id="impersonating-user_{context}"]
+= Impersonating a user 
+image:{project_images}/user-search.png[]
+
+.Procedure
+. You can see here that the admin has searched for `john`. Next to John's account you can see an impersonate button. Click that
+to impersonate the user.
+. Also, you can impersonate the user from the user `Details` tab.
+. Near the bottom of the page you can see the `Impersonate` button.Click that to impersonate the user.
+
