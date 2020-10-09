@@ -7,8 +7,8 @@ User attributes provide a customized experience for each user. Using user attrib
 . Click *Users* in the left menu bar. 
 . Select a user to manage.
 . Click the *Attributes* tab.
-. Enter the attribute name in the _Key_ field.
-. Enter the attribute value in the _Value_ field.
+. Enter the attribute name in the *Key* field.
+. Enter the attribute value in the *Value* field.
 . Click *Add* .
 . Click *Save*.
 
