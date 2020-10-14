@@ -1,13 +1,11 @@
 [id="proc-enabling-terms-conditions_{context}"]
-= Terms and Conditions
+= Terms and conditions
 
-{project_name} requires new users to accept the terms and conditions before logging in.    
-
-// Many organizations have a requirement that when a new user logs in for the first time, the user agrees to the terms and conditions of the website.  
+{project_name} requires new users to accept the terms and conditions before logging in for the first time.    
 
 .Procedure
-. Click the `Required Actions` tab.
-. Enable the `Terms and Conditions` action.
+. Click the *Required Actions* tab.
+. Enable the *Terms and Conditions* action.
 . Edit the `terms.ftl` file in the _base_ login theme.  
 
 .Additional resources

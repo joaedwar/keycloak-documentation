@@ -1,16 +1,17 @@
 [id="proc-setting-default-required-actions_{context}"]
-= Default Required Actions
+= Setting default required actions
 
-You can also specify required actions that will be added to an account in two ways.  
-* When a new user is created, use the *Add User* button on the user list screen
-* Use the <<_user-registration, user registration>> link on the login page.  
-
-
-You can specify the default required actions 
+You can specify the required actions that must be completed by user in two ways:
 
 .Procedure
-. Click *Authentication* in the left menu.
-. Click the `Required Actions` tab.
-. Click the checkbox in the `Default Action` column of the required actions that you want to be executed when a brand new user logs in.
 
-image:{project_images}/default-required-actions.png[]
+.Using the user registration link 
+. Click *Add User* to navigate to the user list page.
+. Click the <<_user-registration, user registration>> link on the login page.  
+. Specify the default required actions. 
+
+.Using the Required Actions tab
+. Click *Authentication* in the left menu.
+. Click the *Required Actions* tab.
+. Click the checkbox in the *Default Action* column of the required actions that you want to be executed when a new user logs in.
+
