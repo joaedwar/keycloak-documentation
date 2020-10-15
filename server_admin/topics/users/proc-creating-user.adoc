@@ -1,5 +1,5 @@
 [id="proc-creating-user_{context}"]
-= Creating a user
+== Creating a user
 
 Administrators can create users and applications that are owned by the users of a specified realm. In the console, you can add users and register applications to be secured by {project_name}. 
 
