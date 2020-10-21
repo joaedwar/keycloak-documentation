@@ -4,13 +4,13 @@
 [role="_abstract"]
 You can use {project_name} as a third-party authorization server to manage application users. Administrators can add users or users can register themselves.
 
-You can enable {project_name} to allow user self registration. When enabled, the login page displays a registration link that the user can click to create a new account.
+You can enable {project_name} to allow user self-registration. When enabled, the login page displays a registration link that the user can click to create an account.
 
 When user self-registration is enabled, it is possible to use the registration form to detect valid usernames and emails.
 
 include::proc-enabling-user-registration.adoc[leveloffset=+2]
-include::proc-completing-registration-form.adoc[leveloffset=+2]
+include::proc-registering-new-user.adoc[leveloffset=+2]
 
 [role="_additional-resources"]
 .Additional resources
-See the link:{developerguide_link}[{developerguide_name}] for more information.
+* For more information on configuring user registration, see the link:{developerguide_link}[{developerguide_name}].
