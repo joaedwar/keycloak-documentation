@@ -16,7 +16,3 @@ image:{project_images}/registration-form.png[]
 . Enter the user profile information.
 . Enter the new password.
 . Click *Save*.
-
-
-
-
