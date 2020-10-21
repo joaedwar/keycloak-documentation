@@ -16,6 +16,9 @@ You must define the SAML configuration options as well.  They basically describe
 |===
 |Configuration|Description
 
+|Service Provider Entity ID
+|This is a required field and specifies the SAML Entity ID that the remote Identity Provider will use to identify requests coming from this Service Provider. By default it is set to the realm base URL `<root>/auth/realms/{realm-name}`.
+
 |Single Sign-On Service URL
 |This is a required field and specifies the SAML endpoint to start the authentication process.  If your SAML IDP publishes an IDP entity descriptor, the value of
  this field will be specified there.
@@ -65,6 +68,9 @@ You must define the SAML configuration options as well.  They basically describe
 |Validating X509 Certificate
 |The public certificate that will be used to validate the signatures of SAML requests and responses from the external IDP.
 
+|Sign Service Provider Metadata
+|If true, it will use the realm's keypair to sign the <<_identity_broker_saml_sp_descriptor, SAML Service Provider Metadata descriptor>>.
+
 |Pass subject
 |Whether or not a `login_hint` query parameter should be forwarded to the IDP. When provided, this login_hint parameter is added to AuthnRequest's Subject. This allows destination providers to prefill their login form. When no login_hint is provided, nothing is forwarded as an AuthnRequest Subject.
 |===
@@ -77,18 +83,40 @@ This link is an XML document describing metadata about the IDP.
 
 You can also import all this configuration data by providing a URL or XML file that points to the entity descriptor of the external SAML IDP you want to connect to.
 
+[[_identity_broker_saml_requested_authncontext]]
+==== Requesting specific AuthnContexts
+Some Identity Providers let the clients specify particular constraints on the authentication method used to verify the user identity (such as asking for MFA, Kerberos authentication, security requirements, and so on). These constraints are specified using particular AuthnContext criteria. A client can ask for one or more criteria and also specify how the Identity Provider should match the requested AuthnContext - exactly, or by satisfying same-or-better equivalents.
+
+You can list the criteria your Service Provider requires by adding one or more ClassRef or DeclRef in the Requested AuthnContext Constraints section. Usually you need to provide either ClassRefs or DeclRefs; you should check with your Identity Provider documentation which values are supported. If no ClassRefs or DeclRefs are present, the Identity Provider will not enforce additional constraints.
+
+.Requested AuthnContext Constraints
+|===
+|Configuration|Description
+
+|Comparison
+|The comparison method the Identity Provider should use to evaluate the context requirements. Available values are `Exact`, `Minimum`, `Maximum` or `Better`. Default value is `Exact`.
+
+|AuthnContext ClassRefs
+|One or more AuthnContext ClassRefs that describe the required criteria.
+
+|AuthnContext DeclRefs
+|One or more AuthnContext DeclRefs that describe the required criteria.
+|===
+
 [[_identity_broker_saml_sp_descriptor]]
 ==== SP Descriptor
 
-Once you create a SAML provider, there is an `EXPORT` button that appears when viewing that provider.
-Clicking this button will export a SAML SP entity descriptor which you can use to import into the external SP.
+If you need to access the provider's SAML SP metadata, look for the `Endpoints` item in the identity provider configuration settings. It contains a link called 
+`SAML 2.0 Service Provider Metadata` that generates the SAML entity descriptor for the Service Provider. You can either download it or copy its URL and then import it in the remote Identity Provider.
 
-This metadata is also available publicly by going to the URL.
+This metadata is also available publicly by going to the URL:
 
 [source]
 ----
 http[s]://{host:port}/auth/realms/{realm-name}/broker/{broker-alias}/endpoint/descriptor
 ----
+
+Make sure to save any configuration changes before accessing the descriptor or they will not be reflected in the metadata.
 
 [[_identity_broker_saml_login_hint]]
 ==== Send Subject in SAML requests
