@@ -2,15 +2,10 @@
 = Enabling user registration
 
 [role="_abstract"]
-Enable user registration to allow users to register themselves. 
+Enable user registration to allow users to self-register. After you enable this setting, a *Register* link is displayed on the login page of the admin console.
 
-After you enable this setting, a *Register* link is displayed on the login page of the user.
-
-.Login Tab
-image:{project_images}/login-tab.png[]
-
-.Prerequisite
-* You are logged in as an administrator.
+.Registration Link
+image:{project_images}/registration-link.png[]
 
 .Procedure
 . Click *Realm Settings* in the left menu.  
