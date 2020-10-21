@@ -1,15 +1,16 @@
-[id="con-user-registration_{context}"]
+[id="assembly-user-registration_{context}"]
+= User Registration
 
-=== User Registration
+[role="_abstract"]
+You can use {project_name} as a third-party authorization server to manage application users. Administrators can add users or users can register themselves.
 
-You can enable {project_name} to allow user self registration.  When enabled, the login page has a registration
-link the user can click on to create their new account.
+You can enable {project_name} to allow user self registration. When enabled, the login page displays a registration link that the user can click to create a new account.
 
-When user self registration is enabled it is possible to use the registration form to detect valid usernames and emails.
-It is also possible to enable <<_recaptcha,reCAPTCHA Support>>.
+When user self-registration is enabled, it is possible to use the registration form to detect valid usernames and emails.
 
-//include::
-//include::
+include::proc-enabling-user-registration.adoc[leveloffset=+2]
+include::proc-completing-registration-form.adoc[leveloffset=+2]
 
+[role="_additional-resources"]
 .Additional resources
 See the link:{developerguide_link}[{developerguide_name}] for more information.

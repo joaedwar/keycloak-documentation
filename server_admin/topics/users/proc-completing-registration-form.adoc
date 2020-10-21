@@ -1,17 +1,20 @@
-[id="_{context}"]
-= Completing the egistration form 
+[id="completing-registration-form_{context}"]
+= Completing the registration form 
 
-.Procedure
-
-After you enable this setting, a `Register` link should show up on the login page.
-
-.Registration Link
-image:{project_images}/registration-link.png[]
-
-Clicking on this link will bring the user to the registration page where they have to enter in some user profile information
-and a new password.
+[role="_abstract"]
+The registration form can be customized by removing or adding additional fields that must be completed by a user.
 
 .Registration Form
 image:{project_images}/registration-form.png[]
 
-You can change the look and feel of the registration form as well as removing or adding additional fields that must be entered.
+.Prerequisite
+* User registration is enabled.
+
+.Procedure
+. Click the *Register* link on the login page. The user is directed to the registration page.
+. Enter the user profile information
+. Enter the new password.
+
+
+
+

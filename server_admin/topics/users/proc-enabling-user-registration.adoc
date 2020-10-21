@@ -1,16 +1,24 @@
 [id="proc-enabling-user-registration_{context}"]
-
 = Enabling user registration
 
-.Procedure
-. Click *Realm Settings* in left menu bar.  
-. Click *Login* tab.  
-. There is a *User Registration* switch on this
-tab. Turn it on. 
-. Click *Save*.
+[role="_abstract"]
+Enable user registration to allow users to register themselves. 
 
+After you enable this setting, a *Register* link is displayed on the login page of the user.
 
 .Login Tab
 image:{project_images}/login-tab.png[]
 
-After you enable this setting, a `Register` link should show up on the login page.
+.Prerequisite
+* You are logged in as an administrator.
+
+.Procedure
+. Click *Realm Settings* in the left menu.  
+. Click the *Login* tab.  
+. Enable the *User Registration* switch on the tab to turn it on. 
+. Click *Save*.
+
+
+
+
+
