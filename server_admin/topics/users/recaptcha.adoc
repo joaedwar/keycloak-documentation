@@ -24,15 +24,15 @@ reCAPTCHA.
 . Enter the secret generated from the Google reCAPTCHA website, on the config page.
 . Authorize Google to use the registration page as an iframe.
 +
-NOTE: {project_name} prevents websites from including a login page dialog in an iframe. This is to prevent clickjacking attacks. You need to change the default HTTP response headers that {project_name} sets.
+NOTE: {project_name} prevents websites from including a login page dialog in an iframe. This is to prevent clickjacking attacks. You need to change the default HTTP response headers that is set in {project_name}.
 +
 .. Click *Realm Settings* in the left menu. 
 .. Click the *Security Defenses* tab.  
-.. Add `\https://www.google.com` to the field for the *X-Frame-Options* header.
-.. Add `\https://www.google.com` to the field for the *Content-Security-Policy* header.
+.. Enter `\https://www.google.com` in the field for the *X-Frame-Options* header.
+.. Enter `\https://www.google.com` in the field for the *Content-Security-Policy* header.
 
 
 [role="_additional-resources"]
 .Additional resources
-For more information on extending and creating themes, see the link:{developerguide_link}[{developerguide_name}]
+For more information on extending and creating themes, see the link:{developerguide_link}[{developerguide_name}].
 
