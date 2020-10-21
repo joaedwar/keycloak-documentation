@@ -1,7 +1,8 @@
-[id="completing-registration-form_{context}"]
-= Completing the registration form 
+[id="proc-registering-new-user_{context}"]
+= Registering as a new user
 
 [role="_abstract"]
+As a new user you must complete a form with your profile information. 
 The registration form can be customized by removing or adding additional fields that must be completed by a user.
 
 .Registration Form
@@ -12,8 +13,9 @@ image:{project_images}/registration-form.png[]
 
 .Procedure
 . Click the *Register* link on the login page. The user is directed to the registration page.
-. Enter the user profile information
+. Enter the user profile information.
 . Enter the new password.
+. Click *Save*.
 
 
 
