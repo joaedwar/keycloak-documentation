@@ -12,8 +12,3 @@ image:{project_images}/registration-link.png[]
 . Click the *Login* tab.  
 . Enable the *User Registration* radio button, to turn it on. 
 . Click *Save*.
-
-
-
-
-
