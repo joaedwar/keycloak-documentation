@@ -6,13 +6,11 @@ You can use {project_name} as a third-party authorization server to manage appli
 
 You can enable {project_name} to allow user self-registration. When enabled, the login page displays a registration link that the user can click to create an account.
 
-When user self-registration is enabled, the user must complete a form to add profile information. 
-
-The registration form can be customized by removing or adding additional fields that must be completed by a user. It is possible to use the registration form to detect a valid username and email.
+A user must add profile information to the registration form to complete registration. The registration form can be customized by removing or adding additional fields that must be completed by a user. 
 
 include::proc-enabling-user-registration.adoc[leveloffset=+2]
 include::proc-registering-new-user.adoc[leveloffset=+2]
 
 [role="_additional-resources"]
 .Additional resources
-* For more information on configuring user registration, see the link:{developerguide_link}[{developerguide_name}].
+* For more information on customizing user registration, see the link:{developerguide_link}[{developerguide_name}].
