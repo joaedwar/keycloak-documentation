@@ -2,7 +2,7 @@
 = Registering as a new user
 
 [role="_abstract"]
-As a new user you must complete a form with your profile information. 
+As a new user, you must complete a registration form to log in. The user must add profile information and a password to the registration form to complete registration.    
 
 .Registration Form
 image:{project_images}/registration-form.png[]
