@@ -9,5 +9,5 @@ If OTP is conditional in your realm, the user must navigate to the *User Account
 
 .Procedure
 . Navigate to the *Reset Actions* list.
-. Click *Configue OTP*. 
+. Click *Configure OTP*. 
 . Click *Send Email*. The sent email contains a link that directs the user to the OTP setup page. 
