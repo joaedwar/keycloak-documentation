@@ -3,7 +3,6 @@
 
 [role="_abstract"]
 As a new user you must complete a form with your profile information. 
-The registration form can be customized by removing or adding additional fields that must be completed by a user.
 
 .Registration Form
 image:{project_images}/registration-form.png[]
