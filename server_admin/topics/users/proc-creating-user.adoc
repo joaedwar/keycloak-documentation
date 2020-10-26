@@ -1,0 +1,16 @@
+[id="proc-creating-user_{context}"]
+= Creating a user
+
+You create users in the realm where you intend to have applications needed by those users. Avoid creating users in the master realm, which is only intended for creating other realms.
+
+.Prerequisite
+* You are in a realm other than the master realm.
+
+.Procedure
+. In the console, click *Users* in the left menu.
+. Click *Add User*, located on the right side of the empty user list.
+. Enter the details for the new user. 
++
+NOTE: *Username* is the only required field.
++   
+. Click *Save*. After saving the details, the *management page* for the new user is displayed.  

@@ -52,6 +52,7 @@
 :apidocs_link: {project_doc_base_url}/api_documentation/index
 :developerguide_name: Server Developer Guide
 :developerguide_link: {project_doc_base_url}/server_developer_guide/
+:developerguide_deploying_themes: {developerguide_link}#deploying_themes
 :developerguide_actiontoken_name: Action Token SPI
 :developerguide_actiontoken_link: {developerguide_link}#_action_token_spi
 :developerguide_jsproviders_name: JavaScript Providers
@@ -67,9 +68,9 @@
 :openshift_openjdk_platforms: x86_64
 :openshift_openjdk_image: redhat-sso-7/sso74-openshift-rhel8
 :openshift_openjdk_project_templates_version: sso74
-:openshift_openj9_name: Red Hat Single Sign-On for OpenShift on OpenJ9
+:openshift_openj9_name: Red Hat Single Sign-On for OpenShift on Eclipse OpenJ9
 :openshift_openj9_link: {project_doc_base_url}/red_hat_single_sign-on_for_openshift_on_openj9/
-:openshift_openj9_platforms: s390x
+:openshift_openj9_platforms: IBM Z
 :openshift_openj9_image: redhat-sso-7/sso74-openj9-openshift-rhel8
 :openshift_openj9_project_templates_version: sso74-openj9
 

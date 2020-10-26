@@ -2,7 +2,7 @@
 = User Registration
 
 [role="_abstract"]
-You can use {project_name} as a third-party authorization server to manage application users. Administrators can add users or users can register themselves.
+You can use {project_name} as a third-party authorization server to manage application users. Administrators can add users or a users can self-register.
 
 You can enable {project_name} to allow user self-registration. When enabled, the login page displays a registration link that the user can click to create an account.
 
