@@ -1,3 +1,7 @@
+// Module included in the following assemblies:
+//
+// server_admin/topics/users.adoc
+
 [id="proc_creating-otp_{context}"]
 = Creating an OTP
 

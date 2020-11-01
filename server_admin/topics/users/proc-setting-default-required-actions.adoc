@@ -1,3 +1,7 @@
+// Module included in the following assemblies:
+//
+// con-required-actions.adoc
+
 [id="proc-setting-default-required-actions_{context}"]
 = Setting default required actions
 
@@ -7,7 +11,7 @@ You can determine what actions are required before the first login for any new u
 
 .Using the user registration link 
 . Click *Add User* to navigate to the user list page.
-. Click the xref:assembly-user-registration_{context}[user registration] link on the login page.  
+. Click the *User Registration* link on the login page.  
 . Specify the default required actions. 
 
 .Using the Required Actions tab
