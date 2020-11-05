@@ -16,7 +16,7 @@ Once reCAPTCHA is enabled, you can edit `register.ftl` in your login theme to co
 +
 NOTE: The localhost works by default. You do not have to specify a domain.
 +
-. Navigate to the {project_name} Admin Console.
+. Navigate to the {project_name} admin console.
 . Click *Authentication* in the left menu. 
 . Click the *Flows* tab.  
 . Select *Registration* from the drop down menu.
