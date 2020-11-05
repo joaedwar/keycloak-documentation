@@ -5,18 +5,18 @@
 [id="con-user-impersonation_{context}"]
 = User Impersonation
 
-An admin can impersonate a user.  For example, a user may be experiencing a bug in an applications and an admin can impersonate the user to investigate or duplicate the problem. Admins with the appropriate permission can impersonate a user. 
+An administrator with the appropriate permissions can impersonate a user. For example, if a user experiences a bug in an application, an administrator can impersonate the user to investigate or duplicate the issue. 
 
 Any user with the `impersonation` role in the realm can impersonate a user. 
 
 image:{project_images}/user-details.png[]
 
-* If the admin and the user are in the same realm, then the admin will be logged out and automatically logged in as the user being impersonated.  
-* If the admin and user are not in the same realm, the admin will remain logged in, and additionally will be logged in as the user in that user's realm.  
+* If the administrator and the user are in the same realm, then the administrator will be logged out and automatically logged in as the user being impersonated.  
+* If the administrator and user are not in the same realm, the administrator will remain logged in, and additionally will be logged in as the user in that user's realm.  
 
-In both cases, the browser will be redirected to the impersonated user's *User Account Management* page. 
+In both instances, the browser redirects to the impersonated user's *User Account Management* page. 
 
-There are two locations an admin can access the *Impersonate* button to initiate user impersonation. You can access the *Impersonate* button from the *Details* tab or from the *Users* list.
+You can access the *Impersonate* button from the *Details* tab on the *Users* page.
 
 
 .Additional resources
