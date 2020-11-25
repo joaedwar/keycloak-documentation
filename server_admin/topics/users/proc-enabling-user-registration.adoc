@@ -11,5 +11,5 @@ Enable users to self-register. After you enable this setting, a *Register* link 
 .Procedure
 . Click *Realm Settings* in the main menu.  
 . Click the *Login* tab.  
-. Enable *User Registration*.  
+. Toggle *User Registration* to *ON*. 
 . Click *Save*.
